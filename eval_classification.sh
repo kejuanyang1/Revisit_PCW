@@ -1,0 +1,10 @@
+python run_eval.py \
+--dataset rte \
+--model $CHECKPOINT_PATH \
+--parallel seq \
+--n-shots 3 \
+--subsample-test-set 1000 \
+--n-runs 10 \
+--output-dir output \
+--wbits 16 \
+--batch-size-per-gpu 1 \

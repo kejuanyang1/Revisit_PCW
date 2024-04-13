@@ -1,0 +1,16 @@
+botocore
+filelock
+scipy
+tqdm
+matplotlib
+pandas
+requests
+sentencepiece
+ftfy
+langdetect
+scikit_learn
+tensorboardX
+transformers
+rouge_score
+fasttext
+unidecode
